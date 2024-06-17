@@ -6,7 +6,7 @@ import { IoMic } from "react-icons/io5";
 import { AiOutlineVideoCameraAdd } from "react-icons/ai";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { IoPersonCircle } from "react-icons/io5";
-
+import Sidebar from "../Sidebar/Sidebar";
 function Nav() {
     const profile_secsion = {height: '100%',width:'1.5rem'}
   return (

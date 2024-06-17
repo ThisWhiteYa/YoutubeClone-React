@@ -1,11 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Nav from './component/Nav/Nav'
-import './index.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Nav from "./component/Nav/Nav";
+import "./index.css";
+import MainContent from "./component/MainContent/MainContent";
+import Sidebar from "./component/Sidebar/Sidebar";
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-
     <Nav />
-  </React.StrictMode>,
-)
+    <div className="main-content">
+      <Sidebar />
+      <MainContent />
+    </div>
+  </React.StrictMode>
+);

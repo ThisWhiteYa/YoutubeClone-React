@@ -1,0 +1,14 @@
+.grid-container{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #0f0f0f;
+}
+.card{
+    height: 200px;
+    width: auto;
+    background-color: gray;
+    border-radius: 15px;
+}

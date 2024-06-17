@@ -1,0 +1,46 @@
+.sidebar-container {
+  background-color: #0f0f0f;
+  width: 15%;
+  height: 100vh;
+  padding: 1rem;
+  overflow-y: auto;
+
+}
+.section {
+  border-bottom: 1px solid rgb(70, 70, 70);
+}
+ul {
+  .item {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: start;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    span {
+      margin-left: 2rem;
+      font-size: 0.85em;
+    }
+    &:hover {
+      background-color: hsl(0, 0%, 15%);
+      cursor: pointer;
+    }
+  }
+  .sub-title {
+    color: white;
+    margin: 0.5rem 0;
+    list-style: none;
+    /* font-weight: bold; */
+  }
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .status {
+    color: hsl(230, 98%, 68%);
+  }
+}
