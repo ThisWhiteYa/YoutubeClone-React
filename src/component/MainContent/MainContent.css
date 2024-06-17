@@ -1,14 +1,16 @@
 .grid-container{
     width: 85%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 1rem;
     padding: 2rem;
     background-color: #0f0f0f;
 }
 .card{
     height: 200px;
-    width: auto;
+    width: 380px;
     background-color: gray;
     border-radius: 15px;
 }
