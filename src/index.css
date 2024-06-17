@@ -5,6 +5,20 @@
   font-family: "Roboto", sans-serif;
   /* overflow: hidden; */
 }
+::-webkit-scrollbar{
+  background-color: #0f0f0f;
+}
+::-webkit-scrollbar-track{
+  background-color: hsl(0, 0%, 10%);
+}
+::-webkit-scrollbar-thumb{
+  background-color: hsl(0, 0%, 30%);
+  
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(0, 0%, 20%);
+}
+
 .main-content{
   display: flex;
 }
