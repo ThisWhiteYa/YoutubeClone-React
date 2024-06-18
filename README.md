@@ -1,1 +1,1 @@
-This is for improve my skill about frontend developer only.
+<h1>This is a YouTube Clone for beginner with react.js and not responsive yet.</h1>
