@@ -1,12 +1,13 @@
 .sidebar-container {
+  display: inline-block;
   background-color: #0f0f0f;
-  width: 15%;
+  width: 15rem;
   height: 100vh;
   padding: 1rem;
   overflow-y: auto;
   position: sticky;
   top: 56px;
-  right: 0;
+  left: 0;
   z-index: 999;
 }
 .section {
