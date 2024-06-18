@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Nav />
     <div className="main-content">
-      <Sidebar />
+      <Sidebar className="sidebar" />
       <MainContent />
     </div>
   </React.StrictMode>
