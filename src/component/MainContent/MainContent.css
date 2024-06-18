@@ -2,7 +2,7 @@
   background-color: #0f0f0f;
   width: 100%;
 }
-.suggestion-container{
+.suggestion-container {
   width: 1200px;
   display: flex;
   overflow: auto;
@@ -12,19 +12,24 @@
   position: sticky;
   top: 54px;
   background-color: #0f0f0f;
-  .suggestion{
+  .suggestion {
     display: inline-block;
     /* margin-right: 0.25rem; */
-    background-color: hsl(0, 0%, 30%);
+    background-color: #ffffff1a;
     border-radius: 10px;
     padding: 0.5rem 1rem;
     text-wrap: nowrap;
     cursor: pointer;
+    font-size: 14px;
+    &:hover{
+      background-color: white;
+      color: black;
+    }
   }
 }
-.grid-video{
+.grid-video {
   width: 1200px;
-  .card{
+  .card {
     display: inline-block;
     margin: 0.5rem;
     height: 225px;
